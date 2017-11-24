@@ -1,0 +1,63 @@
+
+.fadeOnMouseOver
+  {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+   .fade:hover {
+      opacity: 0.5;
+      }
+.animated
+{
+  background-repeat: no-repeat;
+  background-position: left top;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity: 0;}
+100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+0% {opacity: 0;}
+100% {opacity: 1;}
+}
+
+.fadeIn {
+-webkit-animation-name: fadeIn;
+animation-name: fadeIn;
+}
+.linea.orizzontale
+
+{
+            width: 2px;
+            height: 300px;
+            background-color:black;
+            border-right:1px solid #3f3f3f;
+}
+
+.linea.verticale
+
+{
+            width: 300px;
+            height: 2px;
+            background-color:black;
+            border-bottom:1px solid #3f3f3f;
+}
+.ruota {
+  width:100px;
+  font-size:16px;
+  background-color:#ccc;
+  transform:rotate(20deg);
+/* Safari and Chrome */   -webkit-transform: rotate(20deg);
+/* Opera */   -o-transform: rotate(20deg);
+/* Firefox */   -moz-transform: rotate(20deg);
+/* IE 9 */   -ms-transform: rotate(20deg);
+}
