@@ -44,7 +44,6 @@ import NavDropdown from '../node_modules/react-bootstrap/lib/NavDropdown';
 import Media from '../node_modules/react-bootstrap/lib/Media';
 import OverlayTrigger from  '../node_modules/react-bootstrap/lib/OverlayTrigger';
 import Tooltip from  '../node_modules/react-bootstrap/lib/Tooltip';
-import ReactCSSTransitionGroup from '../node_modules/react-addons-css-transition-group';
 import DropdownButton from '../node_modules/react-bootstrap/lib/DropdownButton';
 import Dropdown from '../node_modules/react-bootstrap/lib/Dropdown';
 
