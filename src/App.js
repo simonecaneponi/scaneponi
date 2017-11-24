@@ -5,6 +5,7 @@ import unito from './unito.png';
 import unimib from './unimib.jpg';
 import scm from './scm.png';
 import consoft from './consoft.png';
+
 import image from './Gradient.jpg';
 import mean from './mean.png';
 import matlab from './matlab.png';
